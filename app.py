@@ -15,8 +15,9 @@ app = FastAPI()
 # -----------------------------
 # Configure Cloudinary
 # -----------------------------
+CLOUDINARY_URL=cloudinary://756848288755769:UcxDBJ-AN-yca2SAGuTtSBVLmXw@penyjj7h
 cloudinary.config(
-    cloudinary_url=os.getenv("cloudinary://756848288755769:UcxDBJ-AN-yca2SAGuTtSBVLmXw@penyjj7h")
+    cloudinary_url=os.getenv("CLOUDINARY_URL")
 )
 
 # -----------------------------
