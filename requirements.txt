@@ -5,3 +5,4 @@ requests
 pypdf2
 pdf2image
 reportlab
+pymupdf
