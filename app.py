@@ -16,9 +16,11 @@ app = FastAPI()
 # Configure Cloudinary
 # -----------------------------
 
-cloudinary.config(
-    cloudinary_url=os.environ["CLOUDINARY_URL"]
-)
+
+print("ENVIRONMENT VARIABLES:")
+print(os.environ)
+
+print("CLOUDINARY_URL =", os.getenv("CLOUDINARY_URL"))
 # -----------------------------
 # Folders
 # -----------------------------
