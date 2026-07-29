@@ -1,8 +1,7 @@
 fastapi
 uvicorn
-pillow
 requests
-pypdf2
-pdf2image
-reportlab
-pymupdf
+cloudinary
+PyMuPDF
+Pillow
+python-multipart
